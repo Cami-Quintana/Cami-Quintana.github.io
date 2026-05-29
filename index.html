@@ -122,19 +122,80 @@
     <section id="proyectos" class="projects">
         <h2>Proyectos Destacados</h2>
         <div class="projects-grid">
-            <div class="project-card">
+            <div class="project-card" onclick="openModal()" style="cursor: pointer;">
                 <div class="project-icon"><i class="fas fa-gamepad"></i></div>
-                <h3>Juego Interactivo - Godot</h3>
-                <p>Videojuego desarrollado en Godot Engine con lógica de programación avanzada, sistemas de físicas y mecánicas de gameplay innovadoras. Un proyecto que demuestra mis habilidades en diseño de juegos y programación de videojuegos.</p>
+                <h3>Tucan's Animal Adventure</h3>
+                <p>Videojuego educativo desarrollado en Godot Engine diseñado para niños. Una experiencia interactiva que enseña sobre el mundo animal mientras se divierten.</p>
                 <div class="project-tech">
                     <span>Godot Engine</span>
                     <span>GDScript</span>
-                    <span>Diseño de Juegos</span>
+                    <span>Educativo</span>
                 </div>
-                <a href="https://github.com/Cami-Quintana" class="project-link">Ver en GitHub</a>
+                <a class="project-link">Ver Detalles ➜</a>
             </div>
         </div>
     </section>
+
+    <!-- Modal del Proyecto -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            
+            <div class="modal-header">
+                <h2>🦜 Tucan's Animal Adventure</h2>
+                <p class="modal-subtitle">Proyecto Grupal - Escuela Técnica N°6 de Morón</p>
+            </div>
+
+            <div class="modal-body">
+                <!-- Galería de Imágenes -->
+                <div class="modal-gallery">
+                    <div class="gallery-container">
+                        <img id="modalImage" src="" alt="Proyecto Tucan" class="modal-image">
+                        <button class="gallery-btn prev" onclick="prevImage()"><i class="fas fa-chevron-left"></i></button>
+                        <button class="gallery-btn next" onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="gallery-dots">
+                        <span class="dot" onclick="currentImage(0)"></span>
+                        <span class="dot" onclick="currentImage(1)"></span>
+                        <span class="dot" onclick="currentImage(2)"></span>
+                        <span class="dot" onclick="currentImage(3)"></span>
+                    </div>
+                </div>
+
+                <!-- Descripción del Proyecto -->
+                <div class="modal-description">
+                    <h3>📖 Descripción</h3>
+                    <p>Tucan's Animal Adventure es un videojuego educativo interactivo creado con Godot Engine, diseñado específicamente para niños de edad preescolar y primaria. El proyecto fue desarrollado en colaboración con un jardín infantil para integrar la tecnología en el aprendizaje sobre el mundo animal.</p>
+                    
+                    <p>El juego presenta una ruleta interactiva con diferentes animales y desafíos educativos que permiten a los niños aprender características del reino animal de forma divertida y comprometedora, teniendo en cuenta su actual dependencia de la tecnología.</p>
+
+                    <h3>🎮 Características Principales</h3>
+                    <ul class="features-list">
+                        <li><strong>Ruleta Interactiva:</strong> Selecciona entre diferentes animales</li>
+                        <li><strong>Preguntas Educativas:</strong> Trivia sobre características de los animales</li>
+                        <li><strong>Modo Aprendizaje:</strong> Descubre datos fascinantes sobre la fauna</li>
+                        <li><strong>Interfaz Amigable:</strong> Diseño colorido y atractivo para niños</li>
+                        <li><strong>Mecánicas Divertidas:</strong> Juegos y desafíos interactivos</li>
+                        <li><strong>Educación Gamificada:</strong> Aprenden mientras se divierten</li>
+                    </ul>
+
+                    <h3>🛠️ Tecnologías Utilizadas</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Godot Engine</span>
+                        <span class="tech-badge">GDScript</span>
+                        <span class="tech-badge">Diseño Educativo</span>
+                        <span class="tech-badge">Game Design</span>
+                    </div>
+
+                    <h3>👥 Contexto</h3>
+                    <p>Este proyecto fue desarrollado como trabajo colaborativo durante una Práctica Profesional (PP) en la Escuela Técnica N°6 de Morón. El objetivo principal fue crear una solución tecnológica que ayude a los jardines infantiles a integrar educación y entretenimiento digital, aprovechando el interés natural de los niños por la tecnología.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay del Modal -->
+    <div id="modalOverlay" class="modal-overlay" onclick="closeModal()"></div>
 
     <!-- Sección Contacto -->
     <section id="contacto" class="contact">
