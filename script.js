@@ -1,16 +1,16 @@
 // Imágenes del proyecto Godot
 const projectImages = [
     {
-        url: 'assets/images/animal-adventure-1.png',
-        title: 'Pantalla Principal - Tucan\'s Animal Adventure'
+        url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==',
+        title: 'Pantalla de preguntas - ¿Qué tienen los monos que el resto de animales no?'
     },
     {
-        url: 'assets/images/animal-adventure-2.png',
-        title: 'Ruleta Interactiva - Selecciona un Animal'
+        url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==',
+        title: 'Jungla - Selecciona y comienza tu aventura'
     },
     {
-        url: 'assets/images/animal-adventure-3.png',
-        title: 'Pregunta Educativa - Trivia de Animales'
+        url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==',
+        title: 'Datos curiosos - Aprende sobre los animales'
     }
 ];
 
