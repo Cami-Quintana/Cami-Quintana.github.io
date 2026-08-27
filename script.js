@@ -1,15 +1,15 @@
 // Imágenes del proyecto Godot
 const projectImages = [
     {
-        url: 'assets/images/imagen1.png.png',
+        url: 'assets/images/imagen1.png',
         title: 'Pantalla de preguntas - ¿Qué tienen los monos que el resto de animales no?'
     },
     {
-        url: 'assets/images/imagen2.png.png',
+        url: 'assets/images/imagen2.png',
         title: 'Jungla - Selecciona y comienza tu aventura'
     },
     {
-        url: 'assets/images/imagen3.png.png',
+        url: 'assets/images/imagen3.png',
         title: 'Datos curiosos - Aprende sobre los animales'
     }
 ];
