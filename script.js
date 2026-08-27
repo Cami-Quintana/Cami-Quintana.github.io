@@ -1,15 +1,15 @@
 // Imágenes del proyecto Godot
 const projectImages = [
     {
-        url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==',
+        url: 'assets/images/imagen1.png.png',
         title: 'Pantalla de preguntas - ¿Qué tienen los monos que el resto de animales no?'
     },
     {
-        url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==',
+        url: 'assets/images/imagen2.png.png',
         title: 'Jungla - Selecciona y comienza tu aventura'
     },
     {
-        url: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==',
+        url: 'assets/images/imagen3.png.png',
         title: 'Datos curiosos - Aprende sobre los animales'
     }
 ];
